@@ -1,0 +1,58 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #F2EDF5;
+  background-color: #18181A;
+  margin: 0px;
+  padding: 0;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav {
+  background-color: #A69CAD;
+  color: #140424;
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.nav-links a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.pill {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px;
+  color: black;
+  background-color: #eee;
+  border-radius: 15px;
+  font-size: 12px;
+}
+
+section {
+  margin: 20px;
+  border-bottom: #A69CAD;
+  border-bottom: 2px solid;
+  padding-bottom: 20px;
+}
+
+.skill-category {
+  margin-top: 20px;
+}
