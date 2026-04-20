@@ -5,10 +5,27 @@
   box-sizing: border-box;
 }
 
+.about {
+  padding-bottom: 40px;
+}
+
+.about p {
+  max-width: 600px;
+}
+
+.about h1 {
+  max-width: 400px;
+  padding-left: 50px;
+}
+
+.bio-text {
+  padding-left: 30px;
+}
+
 body {
   font-family: Arial, sans-serif;
   color: #F2EDF5;
-  background-color: #18181A;
+  background-color: #141313;
   margin: 0px;
   padding: 0;
 }
@@ -18,16 +35,50 @@ body {
   justify-content: space-between;
 }
 
+.btn {
+  display: inline-block;
+  padding: 8px 18px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  text-decoration: none;
+  color: inherit;
+
+  margin: 5px;
+}
+
+.btn-light {
+  display: inline-block;
+  padding: 8px 18px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #140424;
+  background-color: #A6A6BF;
+  margin: 5px;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  padding-top: 30px;
+}
+
+header {
+  padding: 30px;
+}
+
 .logo {
   font-size: 24px;
   font-weight: bold;
 }
 
 nav {
-  background-color: #A69CAD;
+  background-color: #A8A2A8;
   color: #140424;
   width: 100%;
   padding: 10px 20px;
+  position:sticky;
+  top: 0;
 }
 
 .nav-links a {
@@ -36,23 +87,54 @@ nav {
   color: black;
 }
 
+p {
+  margin: 8px;
+}
+
 .pill {
   display: inline-block;
   padding: 5px 10px;
-  margin: 5px;
+  margin: 1px;
   color: black;
-  background-color: #eee;
+  background-color: #BCC3D1;
   border-radius: 15px;
   font-size: 12px;
 }
 
+.project-card {
+  border: 1px solid #A8A2A8;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 15px;
+  background-color: #231B2B;
+  max-width: 800px;
+}
+
 section {
   margin: 20px;
-  border-bottom: #A69CAD;
-  border-bottom: 2px solid;
-  padding-bottom: 20px;
+  border-color: #A8A2A8;
+  border-top: 2px solid;
+  padding-top: 50px;
+  padding-bottom: 30px;
 }
+
 
 .skill-category {
   margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  max-width: 500px;
+  align-items: flex-start;
+}
+
+.skill-category h3 {
+  width: 100%;
+}
+
+.skill-flex {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  max-width: 800px;
 }
